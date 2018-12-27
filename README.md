@@ -35,3 +35,4 @@ additional time compared to the original code (**testm.m**). The low memory vers
 
 Note that **test.m** has been tested on an **NVIDIA TITAN Xp GPU**.
 
+Please do not hesitate to contact us for any problems regarding the released code.
