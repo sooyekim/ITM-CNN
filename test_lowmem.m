@@ -1,4 +1,4 @@
-%%%%%======================= settings ========================%%%%%
+% ======================= settings ======================== %
 factor = 4; % dividing factor
 width = 3840; % frame width
 height = 2160; % frame height
@@ -7,7 +7,7 @@ gpu_flag = 'gpu'; % 'gpu' or 'cpu'
 yuv_format = '420'; % '400' or '411' or '420' or '422' or '444'
 file_SDR = 'J:\QT_seq_YUV\QT-4031_Jojakko-jiTemple_709_3840x2160_420p.yuv'; % location of SDR video file
 file_pred = 'ITM-CNN_prediction.yuv'; % new file
-%%%%%=========================================================%%%%%
+% ========================================================= %
 fclose(fopen(file_pred,'w')); % file init
 [fwidth,fheight] = getformatfactor(format);
 
