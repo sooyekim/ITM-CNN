@@ -1,4 +1,4 @@
-%%%%%======================= settings ========================%%%%%
+% ======================= settings ======================== %
 width = 3840; % frame width
 height = 2160; % frame height
 fr_end = 1; % end frame number
@@ -6,7 +6,7 @@ gpu_flag = 'gpu'; % 'gpu' or 'cpu'
 yuv_format = '420'; % '400' or '411' or '420' or '422' or '444'
 file_SDR = 'C:/test_SDR_video.yuv'; % location of SDR video file
 file_pred = 'ITM-CNN_prediction.yuv'; % new file
-%%%%%=========================================================%%%%%
+% ========================================================= %
 fclose(fopen(file_pred,'w')); % file init
 [fwidth,fheight] = getformatfactor(yuv_format);
 
