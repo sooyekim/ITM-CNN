@@ -1,4 +1,4 @@
-%% load YUV file %%
+% load YUV file
 function YUV = yuv_load(fileName, frame, width, height, factor_w, factor_h, SDR_HDR)
 % get size of U and V
 fileId = fopen(fileName,'r');
