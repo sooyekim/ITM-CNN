@@ -1,4 +1,4 @@
-%get factor for YUV-subsampling
+% get factor for YUV-subsampling
 function [fwidth,fheight] = getformatfactor(format)
     fwidth = 0.5;
     fheight= 0.5;
