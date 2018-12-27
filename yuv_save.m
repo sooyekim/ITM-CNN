@@ -1,4 +1,4 @@
-%%% save YUV to file
+% save YUV to file
 function yuv_save(data, video_file, factor_w, factor_h, SDR_HDR)
 
 % get data size
