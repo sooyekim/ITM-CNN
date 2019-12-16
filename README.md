@@ -36,7 +36,9 @@ additional time compared to the original code (**testm.m**). The low memory vers
 
 Note that **test.m** has been tested on an **NVIDIA TITAN Xp GPU**.
 
-## Train code (update 16.12.2019)
+## Train code
+
+Updated on 16.12.2019.
 
 ### Quick Start
 1. Download all files.
