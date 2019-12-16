@@ -10,12 +10,13 @@ More details can be found in the paper.
 **Reference**: Soo Ye Kim, Dae Eun Kim, Munchurl Kim. ITM-CNN: Learning the Inverse Tone Mapping from Low Dynamic Range Video to High Dynamic Range Displays using Convolutional Neural Networks. 
 *Asian Conference on Computer Vision*, 2018.
 
-## Test code
 ### Requirements
 Our code is implemented using MatConvNet. (MATLAB required)
 
 Appropriate installations of MatConvNet must be made through the official website: <http://www.vlfeat.org/matconvnet/>
 Detailed instructions on installing MatConvNet can be found in: <http://www.vlfeat.org/matconvnet/install/>
+
+## Test code
 
 ### Quick Start
 1. Download all files.
@@ -35,4 +36,16 @@ additional time compared to the original code (**testm.m**). The low memory vers
 
 Note that **test.m** has been tested on an **NVIDIA TITAN Xp GPU**.
 
-Please do not hesitate to contact us for any problems regarding the released code.
+## Train code (update 16.12.2019)
+
+### Quick Start
+1. Download all files.
+2. Place the files in **/+dagnn/** to **\<MatConvNet\>/matlab/+dagnn**
+3. Run in order: **train_1.m** -> **train_2.m** -> **train_3.m**
+
+### Description
+- The three training scripts correspond to the three training phases mentioned in the paper.
+- The trained weights will be stored in the *net* folder.
+
+## Contact
+Please contact me via email (sooyekim@kaist.ac.kr) for any problems regarding the released code.
