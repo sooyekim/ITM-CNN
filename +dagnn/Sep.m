@@ -1,11 +1,10 @@
 classdef Sep < dagnn.ElementWise
-  %   DagNN separation layer
-  %
-  %   This layer divides the input tensor into two sections in the channel direction.
-  %
-  %   e.g. If the input tensor is of size 128x128x64 and num = 24, 
-  %   the tensor is divided into the first section of size 128x128x24 and
-  %   the second section of size 128x128x40.
+%%% Channel-wise split layer %%%
+%
+% This layer divides the input tensor into two sections in the channel direction.
+% e.g. If the input tensor is of size 128x128x64 and num = 24, 
+% the tensor is divided into the first section of size 128x128x24 and
+% the second section of size 128x128x40.
 
   properties
     num = 3;
